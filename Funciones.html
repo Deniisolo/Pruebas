@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica </title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let resul=0;
+        function sumar(num1, num2) {
+            resul=num1+num2;
+            return resul;
+        }
+        function restar(num1, num2) {
+            resul=num1-num2;
+            return resul;
+        }
+        function multiplicar(num1, num2) {
+            resul=num1*num2;
+            return resul;
+        }
+        function dividir(num1, num2) {
+            resul=num1/num2;
+            return resul;
+        }
+        console.log("El resultado de la suma de ambos numeros es =",sumar(5,3));
+        console.log("El resultado de la resta de ambos numeros es =",restar(5,3));
+        console.log("El resultado de la multiplicación de ambos numeros es =",multiplicar(5,3));
+        console.log("El resultado de la división de ambos numeros es =",dividir(5,3));
+    </script>
+</body>
+
+</html>
