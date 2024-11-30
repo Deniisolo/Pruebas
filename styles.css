@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DDA0DD; 
+  display: flex; 
+  justify-content: center; /* Centra los elementos en el navbar */
+}
+
+/* Estilo para los elementos de la lista */
+li {
+  float: left;
+}
+
+/* Estilo para los enlaces */
+li a {
+  display: block;
+  color: white; /* Texto blanco */
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; /* Quita el subrayado */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Efecto hover */
+li a:hover {
+  background-color: #C084CC; /* Tono más oscuro de lila */
+  color: white;
+  border-radius: 5px; /* Bordes redondeados al pasar el mouse */
+}
+
+  
